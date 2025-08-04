@@ -280,13 +280,13 @@ body, html {
 }
 
 .section h2 {
-  font-family: 'EB Garamond', serif !important;
+  font-family: 'EB Garamond', cursive !important;
   text-align: center;
   font-size: 2rem;
 }
 
 .section h3 {
-  font-family: 'EB Garamond', serif !important;
+  font-family: 'EB Garamond', cursive !important;
   z-index: 2;
   text-align: center;
   font-size: 1.5rem;
@@ -294,7 +294,7 @@ body, html {
   text-shadow: 1px 1px 6px rgba(168, 242, 255, 0.8);
 }
 .section h4 {
-  font-family: 'EB Garamond', serif !important;
+  font-family: 'EB Garamond',cursive !important;
   z-index: 2;
   text-align: center;
   font-size: 1.5rem;
