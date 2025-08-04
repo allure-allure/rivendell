@@ -445,9 +445,8 @@ body, html {
 
 
 .contacts-section {
-  text-align: center;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .contact-invite {
@@ -474,6 +473,21 @@ body, html {
   top: -9999px;
   visibility: hidden;
 }
+
+.contact-button {
+  font-size: 1.9rem;
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 1px dashed #ffffff;
+  transition: all 0.3s;
+}
+
+.contact-button:hover {
+  color: #ff66cc;
+  border-bottom: 1px solid #ff66cc;
+}
+
+
 
 @media (max-width: 768px) {
   body, html {
