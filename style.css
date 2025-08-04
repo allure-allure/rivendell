@@ -280,13 +280,13 @@ body, html {
 }
 
 .section h2 {
-  font-family: 'Montserrat Alternates', cursive !important;
+  font-family: 'EB Garamond', serif !important;
   text-align: center;
   font-size: 2rem;
 }
 
 .section h3 {
-  font-family: 'Montserrat Alternates', cursive !important;
+  font-family: 'EB Garamond', serif !important;
   z-index: 2;
   text-align: center;
   font-size: 1.5rem;
@@ -294,7 +294,7 @@ body, html {
   text-shadow: 1px 1px 6px rgba(168, 242, 255, 0.8);
 }
 .section h4 {
-  font-family: 'Montserrat Alternates', cursive !important;
+  font-family: 'EB Garamond', serif !important;
   z-index: 2;
   text-align: center;
   font-size: 1.5rem;
@@ -403,7 +403,7 @@ body, html {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
-  padding: 0 10rem;
+  padding: 0 11rem;
 }
 
 .service-card {
@@ -521,9 +521,9 @@ body, html {
   }
 
   .content {
-    margin-left: 0; /* убираем отступ, т.к. меню сверху */
+    margin-left: 0; 
     padding: 1rem;
-    padding-top: 5rem; /* чтобы текст не налезал на меню */
+    padding-top: 5rem; 
   }
 
   .section p {
@@ -574,14 +574,14 @@ body, html {
   .services-grid {
     display: flex;
     flex-direction: column;
-    align-items: center !important; /* центрируем карточки */
-    padding: 0 1rem; /* небольшой отступ слева и справа */
+    align-items: center !important; 
+    padding: 0 1rem; 
   }
 
   .service-card {
     width: 100%;
-    max-width: 320px; /* чтобы карточки не растягивались */
-    text-align: left; /* текст по левому краю */
+    max-width: 320px; 
+    text-align: left;
   }
 
   .service-card h3,
@@ -607,8 +607,8 @@ body, html {
 
 @media (min-width: 769px) and (max-width: 1000px) {
   .services-grid {          
-    max-width: 800px;        /* ограничение ширины */
-    margin: 0 auto;          /* центрирование */
+    max-width: 800px;       
+    margin: 0 auto;        
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 1.5rem;
     padding: 0 2.6rem;
