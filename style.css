@@ -1,6 +1,6 @@
 body, html {
      overflow-x: hidden !important;
-     /* overscroll-behavior: none; */
+     overscroll-behavior: none;
      margin: 0 auto;
      padding: 0;
      height: 100%;
